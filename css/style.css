@@ -86,3 +86,23 @@
     color: #111;
     line-height: 1.5;
 }
+
+@media (max-width: 500px) {
+    body, html {
+        height: 100%;
+        min-height: 400px;
+        position: relative;
+    }
+    .footer-tasksync {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 400px;
+        margin-top: 0;
+        z-index: 109;
+        border-radius: 40px;
+    }
+    .index-container {
+        margin-bottom: 500qpx; /* espaço para o footer não sobrepor o conteúdo */
+    }
+}

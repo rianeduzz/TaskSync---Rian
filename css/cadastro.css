@@ -92,8 +92,50 @@ body {
 }
 
 @media (max-width: 500px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        min-height: 100vh;
+        box-sizing: border-box;
+    }
     .cadastro-container {
-        padding: 18px 6vw 16px 6vw;
-        max-width: 98vw;
+        width: 100vw;
+        max-width: 1000px;
+        height: 100vh;
+        max-height: 1000px;
+        margin: 0 auto;
+        padding: 48px 2vw 40px 2vw;
+        border-radius: 0;
+        box-shadow: none;
+        font-size: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cadastro-container h2,
+    .cadastro-container label,
+    .cadastro-container input,
+    .cadastro-container select,
+    .cadastro-container textarea,
+    .cadastro-container button,
+    .cadastro-container a,
+    .cadastro-container p {
+        font-size: 2em;
+    }
+    .cadastro-container input,
+    .cadastro-container select,
+    .cadastro-container textarea {
+        padding: 32px;
+        font-size: 2em;
+    }
+    .cadastro-container button {
+        padding: 32px;
+        font-size: 2em;
+    }
+    .cadastro-container a {
+        font-size: 1.5em;
     }
 }
+
+
